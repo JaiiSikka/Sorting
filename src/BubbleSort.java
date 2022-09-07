@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class BubbleSort {
+class BubbleSort {
 	public static void main(String []args) {
 		int n, c, d, swap;
 		Scanner in = new Scanner(System.in);
@@ -19,7 +19,7 @@ public class BubbleSort {
 				}
 			}
 		}
-		System.out.println("Sorted list of numbers");
+		System.out.println("Sorted list of njjjumbers");
 		for (c = 0; c < n; c++) 
 		      System.out.println(array[c]);
 	}
